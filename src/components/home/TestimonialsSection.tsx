@@ -6,19 +6,19 @@ import ScrollReveal from "../ui/ScrollReveal";
 const testimonials = [
   {
     quote:
-      "Estaba pasando por un divorcio muy difícil y el equipo de NEXIX Legal me acompañó con profesionalismo y empatía. Lograron un acuerdo justo para mí y mis hijos. Eternamente agradecida.",
+      "Estaba pasando por un divorcio muy difícil y el equipo de De la Cruz & Asociados me acompañó con profesionalismo y empatía. Lograron un acuerdo justo para mí y mis hijos. Eternamente agradecida.",
     name: "Carmen M.",
     area: "Derecho Familiar",
   },
   {
     quote:
-      "Me despidieron sin justificación y no sabía qué hacer. NEXIX Legal tomó mi caso y en menos de 3 meses recibí todas mis prestaciones completas. Profesionales de verdad.",
+      "Me despidieron sin justificación y no sabía qué hacer. De la Cruz & Asociados tomó mi caso y en menos de 3 meses recibí todas mis prestaciones completas. Profesionales de verdad.",
     name: "Roberto S.",
     area: "Derecho Laboral",
   },
   {
     quote:
-      "Compré un terreno con problemas de título y estuve a punto de perder mi inversión. Gracias a NEXIX Legal, todo se resolvió legalmente. Recomendadísimos.",
+      "Compré un terreno con problemas de título y estuve a punto de perder mi inversión. Gracias a De la Cruz & Asociados, todo se resolvió legalmente. Recomendadísimos.",
     name: "José L.",
     area: "Derecho Inmobiliario",
   },

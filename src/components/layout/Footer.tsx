@@ -32,8 +32,8 @@ export default function Footer() {
               <a href="#inicio" className="flex items-center gap-2">
                 <Scale className="h-6 w-6 text-gold" />
                 <span className="font-heading text-lg">
-                  <span className="font-bold text-white">NEXIX</span>{" "}
-                  <span className="font-normal text-white/80">LEGAL</span>
+                  <span className="font-bold text-white">De la Cruz</span>{" "}
+                  <span className="font-normal text-white/80">& Asociados</span>
                 </span>
               </a>
               <p className="mt-4 text-sm leading-relaxed text-white/50">
@@ -136,7 +136,7 @@ export default function Footer() {
         {/* Bottom */}
         <div className="border-t border-white/10">
           <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-3 px-8 py-6 text-xs text-white/40 sm:flex-row">
-            <p>&copy; 2026 NEXIX Legal. Todos los derechos reservados.</p>
+            <p>&copy; 2026 De la Cruz & Asociados. Todos los derechos reservados.</p>
             <p>
               Desarrollado por{" "}
               <span className="text-gold">NEXIX Studio</span>

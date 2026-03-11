@@ -33,8 +33,8 @@ export default function Navbar() {
         <a href="#inicio" className="flex items-center gap-2">
           <Scale className="h-7 w-7 text-gold" />
           <span className="font-heading text-xl">
-            <span className="font-bold text-navy">NEXIX</span>{" "}
-            <span className="font-normal text-navy">LEGAL</span>
+            <span className="font-bold text-navy">De la Cruz</span>{" "}
+            <span className="font-normal text-navy">& Asociados</span>
           </span>
         </a>
 

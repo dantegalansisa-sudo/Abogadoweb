@@ -15,7 +15,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "NEXIX Legal — Tu Derecho, Nuestra Prioridad",
+  title: "De la Cruz & Asociados — Tu Derecho, Nuestra Prioridad",
   description:
     "Bufete de abogados con más de 15 años de experiencia en derecho civil, penal, laboral, inmobiliario y familiar. Consulta inicial gratuita.",
 };

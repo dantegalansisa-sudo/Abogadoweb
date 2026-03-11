@@ -48,7 +48,7 @@ export default function AboutSection() {
 
           <ScrollReveal delay={0.2}>
             <p className="leading-relaxed text-gray-text">
-              En NEXIX Legal entendemos que cada caso es único. Desde Azua de
+              En De la Cruz & Asociados entendemos que cada caso es único. Desde Azua de
               Compostela, nuestro equipo combina experiencia legal con un trato
               humano y cercano. Nos especializamos en derecho inmobiliario,
               gestión de propiedades y asesoría jurídica integral, siempre con
