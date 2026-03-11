@@ -143,7 +143,7 @@ function AreaCard({
             </div>
 
             <a
-              href="https://wa.me/18090000000?text=Hola%20NEXIX%20Legal%2C%20necesito%20asesor%C3%ADa%20legal%20sobre%20un%20caso."
+              href="https://wa.me/18092122325?text=Hola%20Lic.%20De%20la%20Cruz%2C%20necesito%20asesor%C3%ADa%20legal%20sobre%20un%20caso."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block pt-2 text-sm font-medium text-navy transition-colors hover:text-gold"

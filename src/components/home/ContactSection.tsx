@@ -7,13 +7,13 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "Dirección",
-    value: "Torre Empresarial, Av. Abraham Lincoln #502, Piso 8, Santo Domingo, RD",
+    value: "Azua de Compostela, República Dominicana",
   },
   {
     icon: Phone,
     label: "Teléfono",
-    value: "(809) 000-0000",
-    href: "tel:+18090000000",
+    value: "(809) 212-2325",
+    href: "tel:+18092122325",
   },
   {
     icon: Mail,
@@ -85,7 +85,7 @@ export default function ContactSection() {
 
           <ScrollReveal delay={0.25}>
             <a
-              href="https://wa.me/18090000000?text=Hola%20NEXIX%20Legal%2C%20necesito%20asesor%C3%ADa%20legal%20sobre%20un%20caso."
+              href="https://wa.me/18092122325?text=Hola%20Lic.%20De%20la%20Cruz%2C%20necesito%20asesor%C3%ADa%20legal%20sobre%20un%20caso."
               target="_blank"
               rel="noopener noreferrer"
               className="mt-4 inline-flex items-center gap-2 rounded-lg bg-whatsapp px-6 py-3 text-sm font-medium text-white transition-opacity hover:opacity-90"
@@ -102,7 +102,7 @@ export default function ContactSection() {
             <div className="text-center">
               <MapPin className="mx-auto h-12 w-12 text-navy/20" />
               <p className="mt-3 text-sm text-gray-light">
-                Google Maps — Santo Domingo, RD
+                Google Maps — Azua de Compostela, RD
               </p>
             </div>
           </div>

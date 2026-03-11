@@ -22,9 +22,9 @@ const faqs = [
       "Cada caso es diferente. En la consulta inicial te damos un estimado realista de tiempos. Nos comprometemos a mantenerte informado en cada etapa.",
   },
   {
-    question: "¿Atienden casos fuera de Santo Domingo?",
+    question: "¿Atienden casos fuera de Azua?",
     answer:
-      "Sí, atendemos casos en toda la República Dominicana. Para clientes fuera de Santo Domingo, ofrecemos consultas virtuales por videollamada.",
+      "Sí, atendemos casos en toda la República Dominicana. Para clientes fuera de Azua de Compostela, ofrecemos consultas virtuales por videollamada.",
   },
   {
     question: "¿Qué documentos necesito para mi primera consulta?",

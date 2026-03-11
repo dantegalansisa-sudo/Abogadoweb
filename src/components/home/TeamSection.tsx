@@ -5,10 +5,10 @@ import TeamCard from "../ui/TeamCard";
 
 const team = [
   {
-    name: "Lic. Nombre Apellido",
-    title: "Abogado Principal — Derecho Penal y Civil",
+    name: "Lic. Lisaldy de la Cruz",
+    title: "Abogado Principal — Derecho Inmobiliario y Civil",
     description:
-      "Más de 15 años de experiencia litigando en tribunales civiles y penales.",
+      "Egresado de UFHEC, especialista en gestión de propiedades y asesoría legal integral en Azua.",
   },
   {
     name: "Lic. Nombre Apellido",
@@ -18,9 +18,9 @@ const team = [
   },
   {
     name: "Lic. Nombre Apellido",
-    title: "Especialista en Derecho Inmobiliario y Comercial",
+    title: "Especialista en Derecho Laboral y Comercial",
     description:
-      "Experto en transacciones inmobiliarias y constitución de empresas.",
+      "Experto en relaciones laborales, contratos y constitución de empresas.",
   },
 ];
 

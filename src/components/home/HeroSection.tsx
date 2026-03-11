@@ -16,7 +16,7 @@ export default function HeroSection() {
 
           <ScrollReveal delay={0.1}>
             <p className="text-sm font-medium uppercase tracking-widest text-gold">
-              Bufete de Abogados
+              Bufete de Abogados — Azua de Compostela
             </p>
           </ScrollReveal>
 
@@ -28,16 +28,16 @@ export default function HeroSection() {
 
           <ScrollReveal delay={0.3}>
             <p className="max-w-xl text-lg leading-relaxed text-gray-text">
-              Más de 15 años de experiencia en derecho civil, penal, laboral,
-              inmobiliario y familiar. Ofrecemos asesoría jurídica personalizada
-              con los más altos estándares de ética profesional.
+              Asesoría jurídica personalizada en derecho inmobiliario, civil,
+              penal, laboral y familiar. Especialistas en compraventa y alquiler
+              de propiedades en Azua y toda la República Dominicana.
             </p>
           </ScrollReveal>
 
           <ScrollReveal delay={0.4}>
             <div className="flex flex-wrap gap-4">
               <a
-                href="https://wa.me/18090000000?text=Hola%20NEXIX%20Legal%2C%20necesito%20asesor%C3%ADa%20legal%20sobre%20un%20caso."
+                href="https://wa.me/18092122325?text=Hola%20Lic.%20De%20la%20Cruz%2C%20necesito%20asesor%C3%ADa%20legal%20sobre%20un%20caso."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="rounded-lg bg-navy px-8 py-4 text-sm font-medium text-white transition-colors hover:bg-navy-light"
@@ -55,7 +55,7 @@ export default function HeroSection() {
 
           <ScrollReveal delay={0.5}>
             <p className="text-sm text-gray-light">
-              📞 (809) 000-0000 — Consulta inicial gratuita
+              📞 (809) 212-2325 — Consulta inicial gratuita
             </p>
           </ScrollReveal>
         </div>

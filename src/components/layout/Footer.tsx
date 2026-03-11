@@ -104,16 +104,15 @@ export default function Footer() {
               <ul className="mt-5 space-y-4">
                 <li className="flex gap-3 text-sm text-white/50">
                   <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-gold" />
-                  Torre Empresarial, Av. Abraham Lincoln #502, Piso 8, Santo
-                  Domingo, RD
+                  Azua de Compostela, República Dominicana
                 </li>
                 <li>
                   <a
-                    href="tel:+18090000000"
+                    href="tel:+18092122325"
                     className="flex gap-3 text-sm text-white/50 transition-colors hover:text-gold"
                   >
                     <Phone className="h-4 w-4 shrink-0 text-gold" />
-                    (809) 000-0000
+                    (809) 212-2325
                   </a>
                 </li>
                 <li>

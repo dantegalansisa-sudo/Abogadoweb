@@ -43,19 +43,20 @@ export default function AboutSection() {
 
           <ScrollReveal delay={0.2}>
             <p className="leading-relaxed text-gray-text">
-              En NEXIX Legal entendemos que cada caso es único. Nuestro equipo
-              de abogados combina experiencia legal con un trato humano y
-              cercano. Nos especializamos en ofrecer soluciones jurídicas
-              efectivas, siempre con transparencia y ética profesional como
-              pilares fundamentales.
+              En NEXIX Legal entendemos que cada caso es único. Desde Azua de
+              Compostela, nuestro equipo combina experiencia legal con un trato
+              humano y cercano. Nos especializamos en derecho inmobiliario,
+              gestión de propiedades y asesoría jurídica integral, siempre con
+              transparencia y ética profesional como pilares fundamentales.
             </p>
           </ScrollReveal>
 
           <ScrollReveal delay={0.25}>
             <p className="leading-relaxed text-gray-text">
-              Desde nuestra fundación, hemos representado con éxito a cientos de
-              clientes en áreas que van desde el derecho familiar hasta litigios
-              comerciales complejos. Tu tranquilidad es nuestro objetivo.
+              Hemos representado con éxito a cientos de clientes en la región
+              de Azua y toda la República Dominicana, desde compraventa de
+              propiedades hasta litigios civiles y familiares. Tu tranquilidad
+              es nuestro objetivo.
             </p>
           </ScrollReveal>
 

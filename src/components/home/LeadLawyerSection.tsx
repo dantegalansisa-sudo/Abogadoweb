@@ -1,12 +1,14 @@
 "use client";
 
-import { User, GraduationCap, Award, Briefcase } from "lucide-react";
+import Image from "next/image";
+import { GraduationCap, Award, Briefcase, MapPin } from "lucide-react";
 import ScrollReveal from "../ui/ScrollReveal";
 
 const credentials = [
-  { icon: GraduationCap, text: "Universidad Autónoma de Santo Domingo (UASD)" },
-  { icon: Award, text: "Maestría en Derecho Penal y Procesal Penal" },
-  { icon: Briefcase, text: "Miembro del Colegio de Abogados de la República Dominicana" },
+  { icon: GraduationCap, text: "Universidad Federico Henríquez y Carvajal (UFHEC)" },
+  { icon: Award, text: "Licenciatura en Derecho" },
+  { icon: MapPin, text: "Natural de Azua de Compostela, República Dominicana" },
+  { icon: Briefcase, text: "Especialista en Derecho Inmobiliario y Gestión de Propiedades" },
 ];
 
 export default function LeadLawyerSection() {
@@ -17,8 +19,15 @@ export default function LeadLawyerSection() {
         <ScrollReveal direction="left" className="flex-1">
           <div className="relative">
             <div className="absolute -left-4 -bottom-4 h-full w-full rounded-xl border-2 border-gold/30" />
-            <div className="relative flex aspect-[3/4] max-w-md items-center justify-center rounded-xl bg-gradient-to-b from-cream to-beige border border-beige-medium">
-              <User className="h-24 w-24 text-navy/20" />
+            <div className="relative max-w-md overflow-hidden rounded-xl">
+              <Image
+                src="/images/lawyer-portrait.jpeg"
+                alt="Lic. Lisaldy de la Cruz — Abogado Principal"
+                width={480}
+                height={640}
+                className="h-auto w-full rounded-xl object-cover"
+                priority
+              />
             </div>
           </div>
         </ScrollReveal>
@@ -37,27 +46,28 @@ export default function LeadLawyerSection() {
 
           <ScrollReveal delay={0.15}>
             <h2 className="font-heading text-3xl font-bold text-navy sm:text-4xl">
-              Lic. Nombre Apellido
+              Lic. Lisaldy de la Cruz
             </h2>
           </ScrollReveal>
 
           <ScrollReveal delay={0.2}>
             <p className="leading-relaxed text-gray-text">
-              Con más de 15 años de ejercicio profesional, el Lic. Nombre
-              Apellido ha liderado NEXIX Legal con un enfoque centrado en la
-              excelencia jurídica y el compromiso con cada cliente. Su
-              trayectoria abarca desde litigios civiles y penales de alta
-              complejidad hasta asesorías corporativas para empresas nacionales e
-              internacionales.
+              Egresado de la Universidad Federico Henríquez y Carvajal (UFHEC),
+              el Lic. Lisaldy de la Cruz ha construido una sólida carrera
+              jurídica desde su natal Azua de Compostela. Su práctica combina el
+              ejercicio del derecho con una profunda vocación por el servicio a
+              su comunidad, especializándose en derecho inmobiliario, gestión de
+              venta y alquiler de propiedades, y asesoría legal integral.
             </p>
           </ScrollReveal>
 
           <ScrollReveal delay={0.25}>
             <p className="leading-relaxed text-gray-text">
-              Reconocido por su capacidad estratégica y su dedicación
-              inquebrantable a la justicia, ha logrado resultados favorables en
-              más de 2,000 casos, consolidándose como una figura de referencia en
-              el ámbito legal dominicano.
+              Con un enfoque cercano y transparente, el Lic. de la Cruz se ha
+              ganado la confianza de cientos de clientes en la región de Azua y
+              más allá, ayudándoles a proteger su patrimonio, resolver conflictos
+              legales y concretar transacciones inmobiliarias con total seguridad
+              jurídica.
             </p>
           </ScrollReveal>
 
@@ -66,7 +76,8 @@ export default function LeadLawyerSection() {
             <div className="border-l-2 border-gold pl-6 py-2">
               <p className="font-heading text-lg italic text-navy">
                 <span className="text-gold">&ldquo;</span>
-                La justicia no es solo un derecho, es un compromiso.
+                La justicia no es solo un derecho, es un compromiso con cada
+                persona que deposita su confianza en nosotros.
                 <span className="text-gold">&rdquo;</span>
               </p>
             </div>
@@ -87,7 +98,7 @@ export default function LeadLawyerSection() {
           {/* Badge */}
           <ScrollReveal delay={0.4}>
             <span className="inline-block rounded-full bg-gold-light px-5 py-2 text-sm font-medium text-navy">
-              15+ Años de Experiencia
+              Experto en Bienes Raíces y Derecho Inmobiliario
             </span>
           </ScrollReveal>
         </div>

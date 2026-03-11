@@ -54,14 +54,14 @@ export default function Navbar() {
         {/* Desktop right side */}
         <div className="hidden items-center gap-5 lg:flex">
           <a
-            href="tel:+18090000000"
+            href="tel:+18092122325"
             className="flex items-center gap-1.5 text-sm text-gray-text transition-colors hover:text-navy"
           >
             <Phone className="h-4 w-4" />
-            (809) 000-0000
+            (809) 212-2325
           </a>
           <a
-            href="https://wa.me/18090000000?text=Hola%20NEXIX%20Legal%2C%20necesito%20asesor%C3%ADa%20legal%20sobre%20un%20caso."
+            href="https://wa.me/18092122325?text=Hola%20Lic.%20De%20la%20Cruz%2C%20necesito%20asesor%C3%ADa%20legal%20sobre%20un%20caso."
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-lg bg-navy px-6 py-2.5 text-sm font-medium text-white transition-colors hover:bg-navy-light"
@@ -104,7 +104,7 @@ export default function Navbar() {
                 </a>
               ))}
               <a
-                href="https://wa.me/18090000000?text=Hola%20NEXIX%20Legal%2C%20necesito%20asesor%C3%ADa%20legal%20sobre%20un%20caso."
+                href="https://wa.me/18092122325?text=Hola%20Lic.%20De%20la%20Cruz%2C%20necesito%20asesor%C3%ADa%20legal%20sobre%20un%20caso."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-2 rounded-lg bg-navy px-6 py-3 text-center text-sm font-medium text-white"
