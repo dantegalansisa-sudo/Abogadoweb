@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { Scale, Handshake, Trophy } from "lucide-react";
 import ScrollReveal from "../ui/ScrollReveal";
 
@@ -17,9 +18,13 @@ export default function AboutSection() {
         <ScrollReveal direction="left" className="flex-1">
           <div className="relative">
             <div className="absolute -left-4 -bottom-4 h-full w-full rounded-xl border-2 border-gold/30" />
-            <div className="relative flex aspect-[4/3] items-center justify-center rounded-xl bg-gradient-to-b from-cream to-beige border border-beige-medium">
-              <Scale className="h-20 w-20 text-navy/20" />
-            </div>
+            <Image
+              src="/images/bufett1.jpg"
+              alt="Abogado en tribunal — balanza de la justicia"
+              width={600}
+              height={450}
+              className="relative rounded-xl object-cover aspect-[4/3]"
+            />
           </div>
         </ScrollReveal>
 

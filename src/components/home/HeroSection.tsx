@@ -1,6 +1,6 @@
 "use client";
 
-import { Scale } from "lucide-react";
+import Image from "next/image";
 import ScrollReveal from "../ui/ScrollReveal";
 
 export default function HeroSection() {
@@ -65,10 +65,14 @@ export default function HeroSection() {
           <div className="relative">
             {/* Gold frame decoration */}
             <div className="absolute -right-4 -bottom-4 h-full w-full rounded-xl border-2 border-gold/30" />
-            {/* Image placeholder */}
-            <div className="relative flex aspect-[4/3] items-center justify-center rounded-xl bg-gradient-to-b from-cream to-beige border border-beige-medium">
-              <Scale className="h-20 w-20 text-navy/20" />
-            </div>
+            <Image
+              src="/images/bufett.jpg"
+              alt="Bufete de abogados — apretón de manos profesional"
+              width={600}
+              height={450}
+              className="relative rounded-xl object-cover aspect-[4/3]"
+              priority
+            />
           </div>
         </ScrollReveal>
       </div>
